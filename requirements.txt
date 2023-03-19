@@ -1,4 +1,5 @@
-Flask
-numpy
+streamlit
 pandas
+numpy
+flask
 gunicorn
