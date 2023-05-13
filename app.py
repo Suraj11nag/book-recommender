@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+from pandas.core.indexes.numeric import NumericIndex
 
 popular_df = pickle.load(open('popular.pkl','rb'))
 pivot_table = pickle.load(open('pivot_table.pkl','rb'))
